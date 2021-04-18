@@ -1,0 +1,16 @@
+*.suo
+*.user
+*.DotSettings
+*.sublime*
+_ReSharper.*
+*.nupkg
+bin
+obj
+Logs
+node_modules
+.idea
+*.sln.ide
+.vs
+packages/
+
+src/Frontend/YouSendApplication/\(null\)
