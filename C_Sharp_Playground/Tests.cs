@@ -16,6 +16,8 @@ class Tests
             wait.Until(webDriver => webDriver.FindElement(By.CssSelector("h3")).Displayed);
             IWebElement firstResult = driver.FindElement(By.CssSelector("h3"));
             Console.WriteLine(firstResult.GetAttribute("textContent"));
+            driver.Close();
+            driver.Quit();
         }
     }
 }
